@@ -1,0 +1,419 @@
+html{
+    background-image: url(back.jpg);  
+        
+}
+
+
+#main-header{
+    
+	color: purple;
+    font-style: sans-serif;
+    padding: 5px;
+    background-color: white;
+        
+    
+}
+
+
+body{
+    font-family: sans-serif;
+    width: 1100px;
+    margin: auto;
+    background-color:  white;
+   
+    
+}
+
+aside{
+    float: right;
+    width: 160px;
+    padding-top: 100px;
+    padding-right: 80px;
+    
+    
+}
+
+
+
+
+#nav_list ul { 
+    list-style: none;
+   
+}
+
+#nav_list ul li { 
+    width: 160px;
+    
+    
+    
+   
+}
+
+#nav_list ul li a {
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration:underline;
+    font-weight: bold;
+    color: blue; 
+    background-color: white; 
+    text-align: left;
+    
+}
+
+#nav_list a:hover{
+    color: green;
+    
+}
+
+
+
+#nav_menu{
+    background-color: white;
+    height: 45px;
+    list-style-type: none;
+    
+   
+    
+    
+    
+}
+
+
+
+#nav_menu a{
+    display:block;
+    text-decoration: none;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    width:120px;
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    border-right: 0.3px solid white;
+    margin-left:0;
+    
+    
+}
+
+
+#nav_menu ul li a.firstitem{
+    color: orange;
+}
+
+
+#nav_menu a:hover{
+    background-color: white;
+    color: purple;
+    padding-bottom: 15px;
+    
+}
+
+
+
+
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+   
+}
+
+
+#nav_menu ul li { 
+    float: left; 
+}
+
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding-left: 0;
+    
+}
+               
+#nav_menu ul ul li { 
+    float: none; 
+}
+
+#nav_menu ul li:hover > ul {
+    display: block; 
+    
+}
+
+
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+
+#container{
+    
+    height: 650px;
+   
+   
+    
+    
+}
+
+
+
+
+main{
+    border: 0 solid white; 
+    
+}
+
+
+.vl_1 {
+  border-left: 5px solid purple;
+  height: 480px;
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  
+}
+
+
+.vl_2 {
+  border-left: 5px solid purple;
+  height: 480px;
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  
+}
+
+
+.index_h1{
+    
+    text-align: center;
+    font-weight: 800;
+    
+    
+}
+
+.index_h3{
+    padding-left: 377px;
+    font-weight: 700;
+    
+    
+}
+
+#index_h2{
+    
+    padding-left: 330px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 125%;
+}
+
+#index_h2:first-letter{
+    font-size: 1.9em;
+}
+
+
+
+#index_h4{
+    
+    padding-left: 340px;
+    font-weight: 600%;
+    font-size: 125%;
+}
+
+.first_letter{
+    font-size:300%;
+}
+
+#logo{
+    height: 400px;
+    width: 600px;
+    padding-left: 255px;
+    
+}
+
+
+
+#about{
+    padding-left: 490px;
+    color: purple;
+    padding-top: -15px;
+    font-size: 125%;
+    
+}
+
+#about_para{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 410px;
+    
+    font-family:serif;
+    width:300px;
+    color: black;
+}
+
+#recent{
+    width:700px;
+    height:350px;
+    padding-left: 140px;
+    
+}
+
+
+#recent_h3{
+    padding-left: 350px;
+    color:purple;
+    
+}
+
+
+#video_h3{
+    
+    padding-top: 40px;
+    
+   
+}
+
+#video{
+    
+}
+
+
+#players {
+    padding-left: 400px;
+    
+    
+     }
+  
+th, td {
+   
+    padding:8px;
+    text-align: left; 
+    
+    
+}
+
+
+
+
+
+.Player{
+    font-size: 125%;
+    font-weight: bold;
+    padding: 22px;
+    color: purple;
+    
+}
+
+
+
+#contact_h3{
+    padding-left: 500px;
+    padding-top: 50px;
+    color: purple;
+    font-weight: bold;
+    font-size: 125%;
+    text-decoration-line: underline;
+}
+
+
+#contact_para{
+    padding-left: 355px;
+    padding-top: 20px;
+    font-size: 125%;
+}
+
+#contact_para a{
+    padding:8px 5px 5px 5px;
+}
+
+#contact_para a:hover{
+    color:red;
+}
+
+
+#signup_h3{
+    padding-left: 347px;
+    padding-top: 80px;
+}
+
+table{
+    border-collapse: collapse;
+    display: block;
+    padding-left: 300px;
+}
+
+th, td{
+    padding:5px;
+    margin-left: -5px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: right;
+}
+
+td a{
+    color:black;
+}
+
+.table{
+    max-width: 100%;
+    height: auto;
+}
+
+.table td{
+    float:left;
+    width:8em;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.table input{
+    width: 20em;
+}
+
+
+.table .submit_btn{
+    background-color: purple;
+    border: 2px solid black;
+    width: 110px;
+    color:white;
+    
+}
+
+
+#email_h4{
+    padding-left: 295px;
+    padding-top: 80px;
+   
+    
+    
+    
+}
+
+#email_para{
+    padding-left: 297px;
+    font-weight: 500;
+    color: green;
+}
+
+
+
+#main-footer{
+    font-size: 100%%;
+    text-align: center;
+    color: white;
+    font-style: sans-serif;
+    background: purple;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    
+    
+}
+
